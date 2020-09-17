@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-family: "微軟正黑體";
+        background-image: linear-gradient(to bottom, white 60%, rgba(0, 0, 0, 0.4) 100%);
+      }
+      .container {
+        -webkit-box-reflect: below -25px linear-gradient(transparent 70%, rgba(0, 0, 0, 0.4) 100%);
+      }
+      .container div {
+        width: 300px;
+        height: 500px;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.1) 1%,
+          white 10%,
+          white 85%,
+          rgba(0, 0, 0, 0.1) 100%
+        );
+        box-shadow: 0px 0px 5px rgba(148, 225, 235, 1), 0px 0px 25px rgba(148, 225, 235, 0.8),
+          0px 0px 50px rgba(148, 225, 235, 0.5), 0px 0px 150px rgba(148, 225, 235, 0.2);
+        position: relative;
+        animation: animation 4s infinite;
+      }
+      div img {
+        border-radius: 50%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      div p {
+        display: inline-block;
+        width: 250px;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+      }
+      .container div {
+        transition: transform 1.5s, color 1.5s, -webkit-box-reflect 1.5s;
+      }
+      .container div:hover {
+        transform: translatey(-50%);
+        color: rgb(97, 238, 172);
+        -webkit-box-reflect: below -25px linear-gradient(transparent 70%, rgba(0, 0, 0, 0.4) 100%);
+      }
+      @keyframes animation {
+        0% {
+          filter: hue-rotate(0deg);
+        }
+        25% {
+          filter: hue-rotate(90deg);
+        }
+        50% {
+          filter: hue-rotate(180deg);
+        }
+        75% {
+          filter: hue-rotate(270deg);
+        }
+        100% {
+          filter: hue-rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img src="https://picsum.photos/150/150/?random=1" />
+        <p>
+          話題那是對方網路這些你的把你提供，不喜歡發揮表情差距女孩軟體魔法，樣子上升隱藏版，二手說了所說
+          對了不過總數會有搭配重視在這裡定位那天，背後著名，聲明初音落實為什麼落實傢俱走了，也。
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <img src="https://picsum.photos/150/150/?random=2" />
+        <p>
+          法規妻子，終於知道體驗東方以外考察影響郵箱，電子郵件貼圖釣魚則是房價享受同步上次整合大約收費
+          拒絶江湖招生，時代臺灣保護並且新聞或許一人號碼一看法規小時，首頁數碼網通模組講話條件預。
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <img src="https://picsum.photos/150/150/?random=3" />
+        <p>
+          那位精華有着對著工具友情連結，距離只見在這個，多少學院一部說過相比過程合作注重真正協議大小，
+          戰士動作土地不敢堅持網址是因為一定會衝擊資訊網為何工業，一顆來了，流行她是，一些緊急親。
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <img src="https://picsum.photos/150/150/?random=4" />
+        <p>
+          眼中也許貼布調查公佈辛苦您是招標堅持衛生不用大聲讓她像素，革命等級附件意義就業加大請教，電
+          力出售然後分享很少，全家以及基地魯蛇集團一下子，預測手段業績危機經歷鄉民回應感興趣，認定。
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
